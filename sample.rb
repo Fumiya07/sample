@@ -1,5 +1,10 @@
-def hello
-  p "hello, world."
+class Review
+  def self.get_review_count
+    return 0
+  end
 end
 
-hello
+review = Review.new
+puts review
+
+puts Review.get_review_count
